@@ -14,6 +14,7 @@
 		0BE71C0E1A7AFC4400E6C785 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BE71C0D1A7AFC4400E6C785 /* Images.xcassets */; };
 		0BE71C111A7AFC4400E6C785 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BE71C0F1A7AFC4400E6C785 /* LaunchScreen.xib */; };
 		0BE71C1D1A7AFC4400E6C785 /* GameOfThronesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE71C1C1A7AFC4400E6C785 /* GameOfThronesTests.m */; };
+		0BE71C281A7B002700E6C785 /* GameOfThrones.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE71C271A7B002700E6C785 /* GameOfThrones.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		0BE71C161A7AFC4400E6C785 /* GameOfThronesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameOfThronesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BE71C1B1A7AFC4400E6C785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BE71C1C1A7AFC4400E6C785 /* GameOfThronesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameOfThronesTests.m; sourceTree = "<group>"; };
+		0BE71C261A7B002700E6C785 /* GameOfThrones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOfThrones.h; sourceTree = "<group>"; };
+		0BE71C271A7B002700E6C785 /* GameOfThrones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOfThrones.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				0BE71C051A7AFC4300E6C785 /* AppDelegate.m */,
 				0BE71C071A7AFC4300E6C785 /* ViewController.h */,
 				0BE71C081A7AFC4300E6C785 /* ViewController.m */,
+				0BE71C261A7B002700E6C785 /* GameOfThrones.h */,
+				0BE71C271A7B002700E6C785 /* GameOfThrones.m */,
 				0BE71C0A1A7AFC4400E6C785 /* Main.storyboard */,
 				0BE71C0D1A7AFC4400E6C785 /* Images.xcassets */,
 				0BE71C0F1A7AFC4400E6C785 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BE71C281A7B002700E6C785 /* GameOfThrones.m in Sources */,
 				0BE71C091A7AFC4300E6C785 /* ViewController.m in Sources */,
 				0BE71C061A7AFC4300E6C785 /* AppDelegate.m in Sources */,
 				0BE71C031A7AFC4300E6C785 /* main.m in Sources */,

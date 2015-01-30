@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class GameOfThrones;
+
 @interface ViewController : UIViewController
 
 
+@property (strong, nonatomic) GameOfThrones *namesList;
 @end
 
